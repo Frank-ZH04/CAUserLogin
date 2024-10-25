@@ -29,4 +29,10 @@ public interface LoginUserDataAccessInterface {
 
     @SuppressWarnings({"checkstyle:MissingJavadocMethod", "checkstyle:SuppressWarnings"})
     void setCurrentUser(String name);
+
+    /**
+     * Returns the current user's username.
+     * @return the current user's username.
+     */
+    String getCurrentUser();
 }
